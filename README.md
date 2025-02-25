@@ -1,22 +1,20 @@
-# sv
+# frost
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Table of Contents
 
-## Creating a project
+- [About](#about)
+- [Developing](#developing)
+- [Building](#building)
+- [Deployment](#deployment)
+- [License](#license)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## About
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+This is my personal website utilized for showcasing my projects and hosting documentation. It is built with `svelte`  and hosted on github pages.
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've created a project and installed dependencies with `npm install`, start a development server:
 
 ```bash
 npm run dev
@@ -34,5 +32,12 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
+## Deployment
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+The site is automatically deployed to GitHub Pages via GitHub Actions. It is triggered by pushing a commit to the `main` branch.
+
+
+
+## License
+
+This project is licened under the [MIT License](https://opensource.org/license/mit)
