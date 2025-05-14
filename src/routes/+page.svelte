@@ -8,7 +8,7 @@
 <div class="flex justify-center pt-20">
     <div class="flex flex-col justify-start items-center w-5/9">
         <div class="pb-25">
-            <Title>HELLO WORLD</Title>
+            <Title>BYE WORLD</Title>
             <Subtitle>Salutations, dear Huzz</Subtitle>
         </div>
 
